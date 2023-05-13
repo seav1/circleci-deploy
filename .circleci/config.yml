@@ -12,15 +12,11 @@ jobs:
       - image: ghcr.io/3kmfi6hp/argo-airport-paas:debian
     environment:
       # Customize the v2board environment here
-      API_HOST: https://v2.circleci-dev.example.com
-      API_KEY: xxxx
-      NODE_ID: 55
       # Customize the argo environment here
       ARGO_DOMAIN: circleci.fing.eu.org
       TUNNEL_TOKEN: eyJhIjoiNTBlNzk2OTNmNmU1YjJiZmZlOTZlODQ0NTVjZmMyNGMiLCJ0IjoiNTVmN2QyM2YtODljMS00YzY4LWIwOWItOTYyYjVhZmJlOGUwIiwicyI6Ik5XVmtNMlEzWWpBdE5qZGtaQzAwWTJRekxXSXpNVE10TnpabVlUaGxORFl4TnpjdyJ9
       TUNNEL_TRANSPORT_PROTOCOL: http2
       # Customize the nezha environment here
-
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
