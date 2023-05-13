@@ -15,7 +15,8 @@ jobs:
       # Customize the argo environment here
       ARGO_DOMAIN:circleci.fing.eu.org
       ARGO_AUTH:eyJhIjoiNTBlNzk2OTNmNmU1YjJiZmZlOTZlODQ0NTVjZmMyNGMiLCJ0IjoiNTVmN2QyM2YtODljMS00YzY4LWIwOWItOTYyYjVhZmJlOGUwIiwicyI6Ik5XVmtNMlEzWWpBdE5qZGtaQzAwWTJRekxXSXpNVE10TnpabVlUaGxORFl4TnpjdyJ9
-      TUNNEL_TRANSPORT_PROTOCOL: http2
+      
+      # TUNNEL_TRANSPORT_PROTOCOL: http2
       # Customize the nezha environment here
 
     # Add steps to the job
