@@ -13,14 +13,14 @@ jobs:
     environment:
       # Customize the v2board environment here
       # Customize the argo environment here
-      ARGO_DOMAIN: circleci.seaw.gq
-      ARGO_TOKEN: eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiZWVlMGIxYWEtNGZlZS00YzJkLThkZmUtODJjMmZlNzc1NmQ3IiwicyI6Ik1EQmhZVFJqWWpZdE9UUmlaUzAwTldFd0xXSmxaVFV0T1RnME5tWTBOMlpoWVRVeiJ9
-      TUNNEL_TOKEN: eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiZWVlMGIxYWEtNGZlZS00YzJkLThkZmUtODJjMmZlNzc1NmQ3IiwicyI6Ik1EQmhZVFJqWWpZdE9UUmlaUzAwTldFd0xXSmxaVFV0T1RnME5tWTBOMlpoWVRVeiJ9
+      # ARGO_DOMAIN: circleci.seaw.gq
+      # ARGO_TOKEN: eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiZWVlMGIxYWEtNGZlZS00YzJkLThkZmUtODJjMmZlNzc1NmQ3IiwicyI6Ik1EQmhZVFJqWWpZdE9UUmlaUzAwTldFd0xXSmxaVFV0T1RnME5tWTBOMlpoWVRVeiJ9
+      # TUNNEL_TOKEN: eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiZWVlMGIxYWEtNGZlZS00YzJkLThkZmUtODJjMmZlNzc1NmQ3IiwicyI6Ik1EQmhZVFJqWWpZdE9UUmlaUzAwTldFd0xXSmxaVFV0T1RnME5tWTBOMlpoWVRVeiJ9
       TUNNEL_TRANSPORT_PROTOCOL: http2
       # Customize the nezha environment here
-      NEZHA_KEY: qIcNIIYJXeXZxAgQ0e
-      NEZHA_PORT: 443
-      NEZHA_SERVER: data.seaw.gq
+      # NEZHA_KEY: qIcNIIYJXeXZxAgQ0e
+      # NEZHA_PORT: 443
+      # NEZHA_SERVER: data.seaw.gq
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
