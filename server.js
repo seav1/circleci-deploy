@@ -19,7 +19,8 @@ app.get("/", function (req, res) {
 // 页面访问密码
 app.use((req, res, next) => {
   const user = auth(req);
-  // if (user && user.name === username && user.pass === password) {
+  // if (user && user.name === username && user.pass === password) 
+  {
     return next();
   }
   res.set("WWW-Authenticate", 'Basic realm="Node"');
