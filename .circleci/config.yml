@@ -31,9 +31,6 @@ jobs:
           keys:
             - node-deps-v1-{{ .Branch }}-{{checksum "package.json"}}
       - run:
-          name: Install pm2
-          command: npm install pm2 -g
-      - run:
           name: install packages
           command: npm install && apt-get update && apt-get install -y curl
       - save_cache:
@@ -48,5 +45,4 @@ jobs:
 workflows:
   orb-free-workflow:
     jobs:
-      - test
-      
+      - test 
