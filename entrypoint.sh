@@ -7,14 +7,14 @@ WEB_USERNAME=${WEB_USERNAME:-'admin'}
 WEB_PASSWORD=${WEB_PASSWORD:-'password'}
 
 # 哪吒4个参数，ssl/tls 看是否需要，不需要的话可以留空，删除或在这4行最前面加 # 以注释
-NEZHA_SERVER=${NEZHA_SERVER:-'data.seaw.gq'}
+NEZHA_SERVER=${NEZHA_SERVER:-'nz.seav.eu.org'}
 NEZHA_PORT=${NEZHA_PORT:-'443'}
 NEZHA_KEY=${NEZHA_KEY:-'qIcNIIYJXeXZxAgQ0e'}
 NEZHA_TLS=${NEZHA_TLS:-'1'}
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiZWVlMGIxYWEtNGZlZS00YzJkLThkZmUtODJjMmZlNzc1NmQ3IiwicyI6Ik1EQmhZVFJqWWpZdE9UUmlaUzAwTldFd0xXSmxaVFV0T1RnME5tWTBOMlpoWVRVeiJ9'
-ARGO_DOMAIN=${ARGO_DOMAIN:-'circleci.seaw.gq'}
+ARGO_AUTH='eyJhIjoiZjAzMGY1ZDg4OGEyYmRlN2NiMDg3NTU5MzM4ZjE0OTciLCJ0IjoiYmM1ODQzNjEtNjJkYi00ZDgyLWJlN2ItMmNhMzQ5YWI1NGIyIiwicyI6Ik5XWm1Nakl5WlRJdE5tVmhOaTAwTVdOa0xUZ3lOalF0TmpjeU1EQmtNekpoWXpjMSJ9'
+ARGO_DOMAIN=${ARGO_DOMAIN:-'circleci.seav.eu.org'}
 
 # ttyd / filebrowser argo 域名
 SSH_DOMAIN="$SSH_AUTH"
