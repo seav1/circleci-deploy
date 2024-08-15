@@ -492,6 +492,6 @@ generate_filebrowser
 
 while true
 do
-    wget -q -O/dev/null http://seav1.onwebapp.io
+    wget -q -O/dev/null http://www.qq.com
     sleep 300
 done
